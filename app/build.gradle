@@ -42,9 +42,9 @@ android {
 }
 
 dependencies {
-    // GeckoView - Mozilla's Firefox engine with WebExtension support
-    // Using a recent stable nightly version (format: major.minor.timestamp)
-    implementation "org.mozilla.geckoview:geckoview:145.0.20251124145406"
+    // GeckoView Omni - Mozilla's Firefox engine with WebExtension support
+    // Using geckoview-omni (single artifact, all ABIs bundled) for simpler builds
+    implementation "org.mozilla.geckoview:geckoview-omni:145.0.20251124145406"
 
     // AndroidX
     implementation 'androidx.core:core-ktx:1.13.1'
