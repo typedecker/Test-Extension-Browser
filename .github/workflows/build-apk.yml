@@ -37,20 +37,23 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-android-sdk-
 
-      - name: Install Android SDK components (minimal)
+      - name: Install Android SDK components (AGP 8.9+ needs SDK 36)
         run: |
           echo "y" | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
-          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager             "platforms;android-34"             "build-tools;34.0.0"
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
+            "platforms;android-36" \
+            "platforms;android-34" \
+            "build-tools;36.0.0" \
+            "build-tools;34.0.0"
 
       - name: Make Gradle executable
-        run: chmod +x ./gradlew || echo "No gradlew found, will use wrapper task"
+        run: chmod +x ./gradlew || echo "No gradlew found"
 
       - name: Build APK (Debug)
         run: |
           if [ -f "./gradlew" ]; then
             ./gradlew assembleDebug --no-daemon --warning-mode all
           else
-            # If gradlew is missing, create it or use gradle directly
             gradle wrapper
             ./gradlew assembleDebug --no-daemon --warning-mode all
           fi

@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.browserextensions.browserwithextensions'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.browserextensions.browserwithextensions"
@@ -43,11 +43,9 @@ android {
 
 dependencies {
     // GeckoView Omni - Mozilla's Firefox engine with WebExtension support
-    // Using geckoview-omni (single artifact, all ABIs bundled) for simpler builds
     implementation "org.mozilla.geckoview:geckoview-omni:145.0.20251124145406"
 
-    // AndroidX
-    implementation 'androidx.core:core-ktx:1.13.1'
+    // AndroidX (versions managed by transitive deps from GeckoView)
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.12.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

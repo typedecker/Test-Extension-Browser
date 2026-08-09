@@ -6,9 +6,9 @@ pluginManagement {
         maven { url 'https://maven.mozilla.org/maven2' }
     }
     
-    // Specify plugin versions here so app/build.gradle can reference them without versions
+    // AGP 8.9+ required by GeckoView's transitive AndroidX dependencies
     plugins {
-        id 'com.android.application' version '8.5.0'
+        id 'com.android.application' version '8.9.1'
         id 'org.jetbrains.kotlin.android' version '1.9.23'
     }
 }
