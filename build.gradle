@@ -1,15 +1,4 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-buildscript {
-    ext.kotlin_version = '1.9.23'
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-    }
-}
-
-allprojects {
-    // Repositories are now defined in settings.gradle via dependencyResolutionManagement
-}
+// Top-level build file - minimal configuration needed with modern Gradle
 
 task clean(type: Delete) {
     delete rootProject.buildDir

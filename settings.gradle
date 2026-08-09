@@ -3,6 +3,13 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url 'https://maven.mozilla.org/maven2' }
+    }
+    
+    // Specify plugin versions here so app/build.gradle can reference them without versions
+    plugins {
+        id 'com.android.application' version '8.5.0'
+        id 'org.jetbrains.kotlin.android' version '1.9.23'
     }
 }
 
