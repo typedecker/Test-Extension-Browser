@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Browser icon shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,16 C32,16 16,32 16,54 C16,76 32,92 54,92 C76,92 92,76 92,54 C92,32 76,16 54,16 Z" />
+    
+    <!-- Globe/extension symbol -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M54,30 C40,30 30,40 30,54 C30,68 40,78 54,78 C68,78 78,68 78,54 C78,40 68,30 54,30 Z" />
+    
+    <!-- Puzzle piece symbol for extensions -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,42 L60,42 L60,48 L66,48 L66,54 L60,54 L60,60 L54,60 L54,54 L48,54 Z" />
+    
+</vector>

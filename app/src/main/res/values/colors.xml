@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1a73e8</color>
+    <color name="primary_dark">#1557b0</color>
+    <color name="accent">#ea4335</color>
+    <color name="background">#ffffff</color>
+    <color name="surface">#f1f3f4</color>
+    <color name="on_primary">#ffffff</color>
+    <color name="on_background">#202124</color>
+    <color name="toolbar_bg">#ffffff</color>
+    <color name="tab_indicator">#1a73e8</color>
+</resources>

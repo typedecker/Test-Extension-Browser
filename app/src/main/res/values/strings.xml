@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Extension Browser</string>
+    <string name="enter_url">Enter URL...</string>
+    <string name="go">Go</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="refresh">Refresh</string>
+    <string name="home">Home</string>
+    <string name="extensions">Extensions</string>
+    <string name="menu">Menu</string>
+    <string name="new_tab">New Tab</string>
+    <string name="close_tab">Close Tab</string>
+    <string name="share">Share</string>
+    <string name="find_in_page">Find in Page</string>
+    <string name="desktop_site">Desktop Site</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Extensions -->
+    <string name="install_extension">Install Extension</string>
+    <string name="remove_extension">Remove Extension</string>
+    <string name="enable_extension">Enable</string>
+    <string name="disable_extension">Disable</string>
+    <string name="extension_name">Name</string>
+    <string name="extension_version">Version</string>
+    <string name="no_extensions">No extensions installed</string>
+    <string name="install_from_file">Install from XPI file</string>
+    <string name="install_from_url">Install from URL</string>
+    <string name="extension_installed">Extension installed successfully</string>
+    <string name="extension_install_failed">Failed to install extension</string>
+    
+    <!-- Tab titles -->
+    <string name="new_tab_title">New Tab</string>
+    <string name="extensions_manager">Extensions Manager</string>
+</resources>
