@@ -6,10 +6,10 @@ pluginManagement {
         maven { url 'https://maven.mozilla.org/maven2' }
     }
     
-    // AGP 8.9+ required by GeckoView's transitive AndroidX dependencies
     plugins {
         id 'com.android.application' version '8.9.1'
-        id 'org.jetbrains.kotlin.android' version '1.9.23'
+        // Kotlin 2.2+ required because GeckoView 145 depends on kotlin-stdlib 2.2.20
+        id 'org.jetbrains.kotlin.android' version '2.2.0'
     }
 }
 
