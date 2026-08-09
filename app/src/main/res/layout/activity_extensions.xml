@@ -117,7 +117,7 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/no_extensions"
                 android:textSize="16sp"
-                android:textColor="?android:attr/textSecondaryColor" />
+                android:textColor="??attr/colorOnSurfaceVariant" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                 android:layout_marginTop="8dp"
                 android:text="Install .xpi files from Firefox Add-ons or other sources"
                 android:textSize="14sp"
-                android:textColor="?android:attr/textSecondaryColor"
+                android:textColor="??attr/colorOnSurfaceVariant"
                 android:gravity="center"
                 android:paddingHorizontal="32dp" />
 

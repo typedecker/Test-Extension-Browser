@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                android:textColor="?android:attr/textSecondaryColor" />
+                android:textColor="??attr/colorOnSurfaceVariant" />
 
         </LinearLayout>
 
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:textSize="13sp"
-            android:textColor="?android:attr/textSecondaryColor"
+            android:textColor="??attr/colorOnSurfaceVariant"
             android:maxLines="2" />
 
         <!-- Controls row -->
